@@ -1,0 +1,14 @@
+// 1. Load Models
+
+clearAFrame()
+
+loadGLTF("field/Final_v5.glb", "frameTest", (frameTest) => {
+	window.frameTest = frameTest;	
+		
+	log("loaded");
+})
+
+
+window.frameTest.play()
+
+window.frameTest.stop()

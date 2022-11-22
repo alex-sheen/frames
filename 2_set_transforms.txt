@@ -1,0 +1,10 @@
+// 2. Set Transforms
+
+window.frameTest.scene.scale.x = 0.1;
+window.frameTest.scene.scale.y = 0.1;
+window.frameTest.scene.scale.z = 0.1;
+window.frameTest.scene.position.x = 0;
+window.frameTest.scene.position.y = 1;
+window.frameTest.scene.position.z = -1;
+window.frameTest.scene.rotation.y = -1;
+window.frameTest.scene.rotation.z = 0;
